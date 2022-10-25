@@ -1,0 +1,72 @@
+body{
+  background-color: white;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+button{
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  border: 5px solid red;
+  border-radius: 2rem;
+  padding: 1em 2em;
+  color: yellow;
+  background-color: black;
+}
+
+.animal-question{
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.animal-prompt{
+  display: flex;
+  justify-content: center;
+  padding-top: 14em;
+}
+
+.pug-image{
+  display: none;
+  width: 500px;
+  height: 500px;
+  border: 5px solid black;
+  border-radius: 5rem;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.kitten-image{
+  display: none;
+  width: 500px;
+  height: 500px;
+  border: 5px solid black;
+  border-radius: 5rem;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.button-options{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+
+button:hover{
+  background-color: yellow;
+  color: black;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:active{
+  background-color: white;
+  border: 5px solid black;
+}
