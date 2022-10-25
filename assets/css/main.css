@@ -1,12 +1,18 @@
 body{
+  /* background-styling */
   background-color: white;
+
+  /* font-styling */
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   font-size: 40px;
 }
 
 button{
+  /* font-styling */
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   font-size: 40px;
+
+  /* button-styling */
   border: 5px solid red;
   border-radius: 2rem;
   padding: 1em 2em;
@@ -15,23 +21,28 @@ button{
 }
 
 .animal-question{
+  /* font-positioning */
   display: flex;
   justify-content: center;
   padding-top: 2rem;
 }
 
 .animal-prompt{
+  /* font-postioning */
   display: flex;
   justify-content: center;
   padding-top: 14em;
 }
 
 .pug-image{
+  /* image-styling */
   display: none;
   width: 500px;
   height: 500px;
   border: 5px solid black;
   border-radius: 5rem;
+
+  /* image-positioning */
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -41,11 +52,14 @@ button{
 }
 
 .kitten-image{
+  /* image-styling */
   display: none;
   width: 500px;
   height: 500px;
   border: 5px solid black;
   border-radius: 5rem;
+
+  /* image-positioning */
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -55,18 +69,21 @@ button{
 }
 
 .button-options{
+  /* button-positioning */
   display: flex;
   justify-content: space-evenly;
   margin-top: 3rem;
 }
 
 button:hover{
+  /* button-hover-styling */
   background-color: yellow;
   color: black;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 button:active{
+  /* button-active-styling */
   background-color: white;
   border: 5px solid black;
 }
