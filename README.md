@@ -6,6 +6,7 @@
 
 ### GH Pages
 
+<https://kaiser-sk.github.io/cpnt262-a1/>
 
 #### Attributions
 
